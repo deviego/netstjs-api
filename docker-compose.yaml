@@ -1,0 +1,10 @@
+version: '3'
+
+services: 
+
+  app: 
+    build: .
+    port:
+    - 5100:5100
+    volumes:
+      - .:/home/node/app
